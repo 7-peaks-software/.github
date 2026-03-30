@@ -1,192 +1,254 @@
-# Seven Peaks Software
+# Seven Peaks Software — Engineering & Delivery
 
-Digital execution partner for complex digital products, platforms, and AI-enabled systems.
+We build and operate production-grade digital products, platforms, and AI-enabled systems for enterprise environments.
 
----
-
-## Who We Are
-
-Seven Peaks is a senior-led digital execution partner helping organizations design, build, modernize, and scale digital products and platforms.
-
-We operate at the intersection of engineering, data, AI, and product delivery, supporting enterprises in turning strategy into production-ready systems.
-
-We are built for:
-- Complex, multi-stakeholder environments
-- High-risk, business-critical initiatives
-- Long-term digital and AI programs
-
-We are not:
-- A strategy-only consultancy
-- A staff augmentation vendor
-- A design or marketing agency
-- A hype-driven AI lab
+This repository represents our engineering approach, delivery systems, and how we apply AI across real-world software development.
 
 ---
 
-## What We Do
+## What We Do (From an Engineering Perspective)
 
-We deliver across the full lifecycle of digital products and platforms:
+We design, build, and scale:
 
-### Digital Product Delivery
-- End-to-end product development (web, mobile, platforms)
-- Product-led delivery balancing business, user, and technology
-- Dedicated product teams and accountable delivery models
+- Distributed backend systems and APIs  
+- Cloud-native platforms (AWS, Azure)  
+- Data platforms and pipelines  
+- AI-enabled applications and agent-based systems  
+- Mobile and web applications at enterprise scale  
 
-### Platform & Cloud Modernization
-- Cloud-native architecture and infrastructure
-- Application modernization and system re-architecture
-- Scalable backend and integration platforms
+Typical characteristics of our work:
 
-### Data Foundations & AI Enablement
-- Data platform design and implementation
-- AI-ready data architecture and governance
-- Production AI systems and intelligent applications
-
-### AI-Enabled Delivery
-AI is embedded across our full delivery lifecycle — from product discovery to engineering, testing, and operations.
-
-- AI-assisted product discovery and specification
-- AI-augmented engineering and code generation
-- Automated testing, QA, and validation
-- Continuous monitoring and optimization of AI-enabled systems
-
-Learn more:  
-👉 https://sevenpeakssoftware.com/delivery/ai-enabled-delivery
-
-### Enterprise Delivery Models
-- End-to-end accountable delivery
-- Embedded, governed capacity scaling
-- Hybrid local + offshore execution
-
-Learn more:  
-👉 https://sevenpeakssoftware.com/how-we-deliver  
-👉 https://sevenpeakssoftware.com/capability  
+- Multi-system integration  
+- High availability and performance requirements  
+- Regulatory or security constraints  
+- Long-lived systems that must evolve over time  
 
 ---
 
-## How We Deliver
+## How We Deliver Software
 
-Our delivery model is designed to reduce risk in complex environments:
+We do not treat delivery as project-based execution.
 
-- Senior-heavy teams embedded in delivery
-- Strong governance and accountability
-- Product-led execution approach
-- AI-enabled engineering workflows
+We operate through structured systems:
 
-We institutionalize delivery through structured platforms:
+### 1. Product-Led Engineering
 
-### Seven Peaks Product Accelerator (SPPA)
-A reusable delivery foundation that standardizes architecture, workflows, and AI-assisted engineering across projects.
+Every system is built as a product, not a one-off implementation.
 
-### Seven Peaks Nexus – AI Accelerator
-An enterprise AI execution platform enabling governed, scalable AI adoption and multi-year AI programs.
+We balance:
+- Business objectives  
+- User needs  
+- Technical architecture  
 
----
-
-## What We’ve Delivered
-
-We have delivered 150+ digital products and platforms across industries including:
-
-- Banking & Financial Services  
-- Insurance  
-- Energy & Industrial  
-- Retail & eCommerce  
-- Healthcare  
-- Telecommunications  
-
-Example outcomes:
-- Modernized cloud infrastructure for fintech scalability
-- Built data platforms for revenue optimization
-- Delivered large-scale digital banking experiences
-- Developed AI-enabled and IoT-driven applications
-
-See case studies:  
-👉 https://sevenpeakssoftware.com/case-studies  
+This influences:
+- System boundaries  
+- API design  
+- Data models  
+- Release strategy  
 
 ---
 
-## Our Approach to AI
+### 2. Senior-Led Engineering Model
 
-AI is not a standalone service. It is embedded into how we deliver.
+Engineering decisions are made by experienced engineers embedded in delivery teams.
 
-We focus on:
-- AI as execution infrastructure, not experimentation
-- Integration into real workflows and systems
-- Governance, observability, and cost control
-- Production-grade AI systems, not prototypes
+This reduces:
+- Architectural drift  
+- Rework cycles  
+- Hidden technical debt  
 
-AI is applied across the full software development lifecycle to improve:
-- Speed
-- Quality
-- Consistency
-
----
-
-## Where We Operate
-
-- Thailand (Primary market)  
-- Norway  
-- APAC & Europe  
-
-We support both:
-- Local enterprise delivery  
-- International offshore and hybrid execution  
+Typical structure:
+- Principal / Lead engineers actively coding and designing systems  
+- Cross-functional squads (product, design, engineering, QA)  
+- Direct ownership of outcomes  
 
 ---
 
-## Who We Work With
+### 3. Structured Delivery Systems (SPPA)
 
-We partner with:
-- Enterprise organizations  
-- Growth-stage companies scaling digital platforms  
-- Global system integrators and consulting firms  
+We do not start from scratch.
 
-We are typically engaged when:
-- Delivery risk is high  
-- Internal teams are saturated  
-- AI or platform initiatives need to move into production  
+The **Seven Peaks Product Accelerator (SPPA)** provides:
+
+- Pre-defined architecture patterns  
+- Reusable infrastructure modules  
+- Standardized DevOps pipelines  
+- Integration frameworks  
+- Security and compliance foundations  
+
+This allows teams to:
+- Start faster  
+- Reduce variability  
+- Focus on domain-specific logic  
 
 ---
 
-## Partner Ecosystem
+## AI in Engineering (How We Actually Use It)
 
-We collaborate with leading technology and platform partners, including:
+AI is embedded into the delivery system — not used as ad-hoc tooling.
 
+### AI Across the SDLC
+
+We apply AI across:
+
+**Discovery & Product**
+- Backlog structuring
+- Specification drafting
+- Rapid prototyping
+
+**Engineering**
+- Code generation within defined architecture boundaries  
+- Refactoring and optimization support  
+- Documentation generation  
+
+**Quality Engineering**
+- Test case generation  
+- Automated validation  
+- Regression detection  
+
+**Operations**
+- Monitoring signal analysis  
+- Incident pattern detection  
+- Cost optimization insights  
+
+More context:  
+https://sevenpeakssoftware.com/delivery/ai-enabled-delivery
+
+---
+
+## AI System Architecture (Production Context)
+
+We build AI systems as part of broader platforms, not isolated services.
+
+Typical architecture includes:
+
+- API layer for system integration  
+- Data platform (e.g. Snowflake, Databricks)  
+- Model access layer (LLMs, embeddings, routing)  
+- Agent orchestration layer  
+- Observability (usage, cost, evaluation)  
+
+Key principles:
+- AI operates inside governed data environments  
+- All outputs are traceable and monitorable  
+- Systems are designed for iteration, not static deployment  
+
+---
+
+## Seven Peaks Nexus (AI Platform Layer)
+
+Nexus is our enterprise AI platform foundation.
+
+It provides:
+
+- Identity & access control (RBAC, enterprise auth)  
+- Governed data access  
+- Agent orchestration and lifecycle management  
+- Model evaluation and monitoring  
+- Cost and usage tracking  
+
+This enables:
+- Production AI systems  
+- Multi-agent workflows  
+- Integration with enterprise systems  
+
+---
+
+## Engineering Principles
+
+### 1. Architecture Before Speed
+Fast delivery without structure creates long-term failure.
+
+We prioritize:
+- Clear system boundaries  
+- Explicit contracts (APIs, schemas)  
+- Scalable architecture from the start  
+
+---
+
+### 2. Systems Over Features
+We optimize for systems that can evolve, not features that ship quickly.
+
+---
+
+### 3. AI Requires Structure
+AI only works at scale when:
+- Architecture is well-defined  
+- Data is governed  
+- Evaluation is continuous  
+
+---
+
+### 4. Observability Is Mandatory
+Every system must be:
+- Measurable  
+- Traceable  
+- Operable under real conditions  
+
+---
+
+## Tech Stack (Representative)
+
+We work across multiple stacks depending on context.
+
+Common technologies include:
+
+**Backend**
+- Node.js / TypeScript  
+- .NET  
+- Python  
+
+**Frontend**
+- React  
+- React Native  
+- Native mobile (iOS / Android)  
+
+**Cloud & Infrastructure**
 - AWS  
-- Microsoft  
+- Azure  
+- Docker / Kubernetes  
+
+**Data & AI**
 - Snowflake  
+- Databricks  
+- Vector databases  
+- LLM APIs and model orchestration  
+
+---
+
+## What We Don’t Do
+
+- No generic code factories  
+- No junior-heavy delivery teams  
+- No isolated AI prototypes without production path  
+- No “lift-and-shift” without architectural redesign  
+
+---
+
+## Working With Us
+
+We typically engage when:
+
+- Systems are becoming difficult to scale  
+- Delivery velocity is slowing due to complexity  
+- AI needs to move from prototype to production  
+- Multiple systems must be integrated into a coherent platform  
 
 ---
 
 ## Careers
 
-We are a team of 200+ professionals across 30+ nationalities, focused on building high-quality digital systems.
+We hire engineers who want to:
 
-👉 https://sevenpeakssoftware.com/careers  
+- Work on real production systems  
+- Solve complex architectural problems  
+- Apply AI in practical delivery contexts  
+- Operate in senior, accountable teams  
+
+https://sevenpeakssoftware.com/careers
 
 ---
 
 ## Contact
 
-👉 https://sevenpeakssoftware.com/contact  
-
----
-
-## When NOT to Work With Us
-
-Seven Peaks is not the right partner if:
-- You are optimizing for lowest cost
-- You need individual resources rather than accountable teams
-- The initiative is small or low complexity
-- You are exploring AI without intent to operationalize
-
----
-
-## Final Positioning
-
-Seven Peaks is built for organizations that need execution certainty, not experimentation.
-
-We focus on:
-- Delivering real systems
-- Reducing delivery risk
-- Scaling digital and AI initiatives into production
+https://sevenpeakssoftware.com/contact
